@@ -10,6 +10,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class, 'index']);
 
+Route::get('/about-us', [PagesController::class, 'about']);
+
+Route::get('/cloud-solution', [PagesController::class, 'cloudsolution']);
+
+Route::get('/cyber-security', [PagesController::class, 'cybersecurity']);
+
+Route::get('/data-center', [PagesController::class, 'datacenter']);
+
+Route::get('/infrastructure', [PagesController::class, 'infrastructure']);
+
+Route::get('/contact-us', [PagesController::class, 'contact']);
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

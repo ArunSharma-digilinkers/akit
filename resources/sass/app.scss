@@ -254,6 +254,26 @@ li {
 	animation: navSlide 1s ease forwards;
 }
 
+.navbar .dropdown-menu {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: none;
+    position: absolute;
+    z-index: 9999;
+}
+
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    visibility: visible;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #ee3739 !important;
+}
+
+
 @keyframes navSlide {
 	0% {
 		transform: translateY(-100%);
@@ -271,6 +291,9 @@ li {
 	padding: 5rem 0;
 }
 
+.br15 {
+   border-radius: 15px;
+}
 
 .read-more-btn {
 	display: inline-block;
@@ -283,7 +306,8 @@ li {
 	border-radius: 30px;
 	transition: all 0.3s ease-in-out;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-	margin-top: 30px;
+	margin-top: 15px;
+	border: none;
 }
 
 .read-more-btn:hover {
@@ -320,6 +344,7 @@ li {
 	gap: 30px;
 	align-items: center;
 	padding: 0px 0px;
+	margin-bottom: 15px;
 
 
 	.counter-box {
@@ -624,6 +649,381 @@ li {
 
 .mt40 {
 	margin-top: 40px;
+}
+
+
+/////////////////////// ABOUT US CSS ///////////////////////
+
+
+.about-banner-box {
+	background-image: url('/public/img/about-banner.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 160px 0px;
+	background-blend-mode: overlay;
+	background-color: #00000061;
+
+	h3 {
+		color: #fff;
+		font-size: 50px;
+		font-style: italic;
+		font-weight: 800;
+	}
+}
+
+
+/////////////// STEP SECTION CSS
+
+.steps-wrapper {
+	background: linear-gradient(135deg, #475395, #003f88);
+
+.step-box {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px 20px;
+    border-radius: 15px;
+	background-color: #fff;
+
+	.step-heading {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		span {
+			font-size: 30px;
+			font-weight: 700;
+			color: #e8886f;
+		}
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+}
+
+} 
+
+.step-img-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		background-color: #fff;
+		padding: 8px;
+	}
+}
+
+/////////////// PROCESS SECTION CSS
+
+.process-section {
+    color: #ffffff;
+    position: relative;
+
+
+.process-item {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.circle-wrapper {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto 25px;
+}
+
+.circle-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #e8886f;
+    transition: transform 0.4s ease;
+}
+
+.circle-wrapper img:hover {
+    transform: scale(1.05);
+}
+
+.step-badge {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2f5bff;
+    padding: 6px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+}
+
+/* Arrow Between Steps */
+@media (min-width: 768px) {
+    .process-item:not(:last-child)::after {
+        content: "➝";
+        position: absolute;
+        top: 110px;
+        right: -25px;
+        font-size: 24px;
+		color: #000;
+    }
+}
+
+
+.ab-cta-wrapper {
+	background: linear-gradient(135deg, #475395, #003f88);
+	text-align: center;
+
+	h3 {
+		color: #fff;
+		font-size: 45px;
+		font-weight: 700;
+	}
+
+	p {
+		color: #fff;
+	}
+}
+
+///////////////// FAQ 
+
+.faq-img-box {
+    background-image: url('../img/faq-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100%;  
+    border-radius: 20px;
+
+	h3 {
+		font-size: 35px;
+	}
+}
+
+.faq-header {
+    margin-bottom: 50px;
+}
+
+.faq-section {
+  margin: 0 auto;
+  padding: 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+
+
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2rem;
+        color: #004b50;
+    }
+
+    .faq-item {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    .faq-question {
+        width: 100%;
+        background:#e2f1f1;
+        border: none;
+        padding: 15px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .faq-question:hover {
+       
+    }
+
+    .faq-question .icon {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        transition: transform 0.3s;
+    }
+
+    .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 15px;
+    transition: max-height 0.4s ease;
+
+        p {
+            margin: 10px 0;
+        }
+    }
+
+.faq-item.active .faq-answer {
+  max-height: 500px;
+}
+
+.faq-item.active .faq-question .icon {
+  content: '−';
+}
+
+}
+
+/////////////////////// SERVICES CSS ///////////////////////
+
+.banner-box {
+	background-image: url('/public/img/service-banner.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 160px 0px;
+
+	h3 {
+		color: #fff;
+		font-size: 50px;
+		font-style: italic;
+		font-weight: 800;
+	}
+}
+
+
+
+.service-cta-wrapper {
+	background-image: url('/public/img/service-cta-img.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: #00000061;
+
+	h3 {
+		color: #fff;
+        font-size: 45px;
+		margin-bottom: 15px;
+	}
+
+	span {
+		color: #fff;
+		font-size: 19px;
+		font-weight: 400;
+	}
+
+	p{
+		color: #fff;
+		margin-bottom: 15px;
+	}
+}
+
+.journey-box {
+	border: 1px solid #80808040;
+    padding: 30px;
+    border-radius: 10px;
+	height: 100%;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+	h4 {
+		font-size: 21px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
+
+	.journey-box:hover {
+    transform: scale(0.95); /* This will zoom out the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds shadow */
+}
+
+
+/////////////////////// CONTACT US CSS ///////////////////////
+
+.contact-banner-box {
+    background-image: url('/public/img/contact-banner.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 160px 0px;
+
+	h3 {
+		color: #fff;
+		font-size: 50px;
+		font-style: italic;
+		font-weight: 800;
+	}
+}
+
+.cont3-box {
+    background-color: rgba(255, 255, 255, 0.8509803922);
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+	i {
+		background-color: #475395;
+		color: #fff;
+		padding: 20px;
+		font-size: 25px;
+		border-radius: 50%;
+		width: 65px;
+		height: 65px;
+		line-height: 28px;
+		text-align: center;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	.cont3-txt-box {
+       margin-left: 30px;
+}
+}
+
+.contact3-form-wrap {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 40px 20px;
+    border-radius: 15px;
+
+	.form-group input, .form-group select {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    background: #f9f9f9;
+}
+
+.contact-form__textarea {
+    border-radius: 0;
+    border-bottom: 3px solid transparent;
+    background-color: #efefef;
+}
+
+.mrb-small {
+    margin-bottom: 0.75rem;
+}
 }
 
 /////////////////////// FOOTER CSS ///////////////////////

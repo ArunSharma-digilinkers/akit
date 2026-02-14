@@ -13,13 +13,23 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url("about")}}">About Us</a>
+                    <a class="nav-link" href="{{url("about-us")}}">About Us</a>
+                </li>
+                <!-- Services Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Our Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{{url('cloud-solution')}}">Cloud Solution</a></li>
+                        <li><a class="dropdown-item" href="{{url('cyber-security')}}">Cyber Security</a></li>
+                        <li><a class="dropdown-item" href="{{url('data-center')}}">Data center Solution</a></li>
+                        <li><a class="dropdown-item" href="{{url('infrastructure')}}">Infrastructure Modernization</a></li>
+                        <!-- Add more services if needed -->
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url("products")}}">our products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{url("contact")}}">Contact us</a>
+                    <a class="nav-link" href="{{url("contact-us")}}">Contact us</a>
                 </li>
                 @if (Auth::check())
                     <li class="nav-item dropdown">
@@ -30,7 +40,6 @@
                             <li>
                                 <form method="POST" action="{{ route('logout') }}">
                                     @csrf
-
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                                     this.closest('form').submit();">
