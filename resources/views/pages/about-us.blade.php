@@ -58,27 +58,31 @@
     <div class="steps-wrapper section-entry">
         <div class="container">
             <div class="row">
+                <div class="12 col-lg-12 col-md-12 col-sm-12 mb-4">
+                    <h5>Technology That Drives Growth</h5>
+                    <h3>Empowering Businesses with Smart, Secure, and Scalable Digital Solutions</h3>
+                </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="step-box mb-4">
                         <div class="step-heading">
-                            <h4>Consultation & Assessment</h4>
+                            <h4>Innovation & Research</h4>
                             <span>1</span>
                         </div>
-                        <p>We begin with a deep understanding of your business needs, current IT environment,</p>
+                        <p>At AK IT LAB, we explore emerging technologies and develop forward-thinking solutions.</p>
                     </div>
                     <div class="step-box mb-4">
                         <div class="step-heading">
-                            <h4>Consultation & Assessment</h4>
+                            <h4>Smart Technology Solutions</h4>
                             <span>2</span>
                         </div>
-                        <p>We begin with a deep understanding of your business needs, current IT environment,</p>
+                        <p>We design and implement intelligent systems, secure infrastructures, and scalable platforms.</p>
                     </div>
                     <div class="step-box mb-4">
                         <div class="step-heading">
-                            <h4>Consultation & Assessment</h4>
+                            <h4>Continuous Improvement & Support</h4>
                             <span>3</span>
                         </div>
-                        <p>We begin with a deep understanding of your business needs, current IT environment,</p>
+                        <p>Technology evolves — and so do we. Our team provides ongoing optimization, monitoring,to ensure peak performance at all times.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
@@ -102,7 +106,7 @@
                 <!-- Step 1 -->
                 <div class="col-lg-4 col-md-4 col-sm-12 process-item mt-4">
                     <div class="circle-wrapper">
-                        <img src="img/Untitled-1.png" alt="Step 1">
+                        <img src="img/process1-img.jpg" alt="Step 1">
                         <span class="step-badge">Step 01</span>
                     </div>
                     <h4>Initiation & Planning</h4>
@@ -112,7 +116,7 @@
                 <!-- Step 2 -->
                 <div class="col-lg-4 col-md-4 col-sm-12 process-item mt-4">
                     <div class="circle-wrapper">
-                        <img src="img/service1-img.jpg" alt="Step 2">
+                        <img src="img/process2-img.jpg" alt="Step 2">
                         <span class="step-badge">Step 02</span>
                     </div>
                     <h4>Execution & Development</h4>
@@ -122,7 +126,7 @@
                 <!-- Step 3 -->
                 <div class="col-lg-4 col-md-4 col-sm-12 process-item mt-4">
                     <div class="circle-wrapper">
-                        <img src="img/service1-img.jpg" alt="Step 3">
+                        <img src="img/process3-img.jpg" alt="Step 3">
                         <span class="step-badge">Step 03</span>
                     </div>
                     <h4>Testing & Maintenance</h4>

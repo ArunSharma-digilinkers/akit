@@ -20,6 +20,10 @@ Route::get('/data-center', [PagesController::class, 'datacenter']);
 
 Route::get('/infrastructure', [PagesController::class, 'infrastructure']);
 
+Route::get('/ups-power', [PagesController::class, 'ups']);
+
+Route::get('/integration-deployment', [PagesController::class, 'integration']);
+
 Route::get('/contact-us', [PagesController::class, 'contact']);
 
 Route::get('/dashboard', function () {

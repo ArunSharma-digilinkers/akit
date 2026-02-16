@@ -36,6 +36,16 @@ class PagesController extends Controller
         return view('pages.infrastructure');
     }
 
+     public function ups()
+    {
+        return view('pages.ups-power');
+    }
+
+    public function integration()
+    {
+        return view('pages.integration-deployment');
+    }
+
     public function contact()
     {
         return view('pages.contact-us');

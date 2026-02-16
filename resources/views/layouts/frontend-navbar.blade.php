@@ -25,6 +25,8 @@
                         <li><a class="dropdown-item" href="{{url('cyber-security')}}">Cyber Security</a></li>
                         <li><a class="dropdown-item" href="{{url('data-center')}}">Data center Solution</a></li>
                         <li><a class="dropdown-item" href="{{url('infrastructure')}}">Infrastructure Modernization</a></li>
+                        <li><a class="dropdown-item" href="{{url('ups-power')}}">UPS & Power Solution</a></li>
+                        <li><a class="dropdown-item" href="{{url('integration-deployment')}}">Integration Deployment</a></li>
                         <!-- Add more services if needed -->
                     </ul>
                 </li>

@@ -38,6 +38,18 @@
                      <p>
                         Whether you are a small business or a large enterprise, our customized cybersecurity strategies are tailored to meet your specific needs. We provide continuous monitoring, risk assessments, and vulnerability management to help you identify potential weaknesses and address them before they can be exploited. Our approach combines cutting-edge technologies with industry best practices to deliver robust protection against all forms of cyberattacks, including malware, phishing, ransomware, and more. Trust AK IT Lab to be your cybersecurity partner and ensure the safety and integrity of your business in the ever-changing digital landscape.
                     </p>
+                    <div class="value-points mt-1">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="ab-points">Network & Endpoint Protection</p>
+                    </div>
+                    <div class="value-points mt-1">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p class="ab-points">Vulnerability Assessment & Penetration Testing</p>
+                    </div>
+                    <div class="value-points mt-1">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p class="ab-points">Data Protection & Compliance Management</p>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="img/cyber-security-img.webp" class="img-fluid">

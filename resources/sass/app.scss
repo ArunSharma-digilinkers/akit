@@ -678,6 +678,10 @@ li {
 .steps-wrapper {
 	background: linear-gradient(135deg, #475395, #003f88);
 
+	h3 {
+		color: #fff;
+	}
+
 .step-box {
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 15px 20px;
@@ -933,7 +937,6 @@ p {
 }
 
 .journey-box {
-	border: 1px solid #80808040;
     padding: 30px;
     border-radius: 10px;
 	height: 100%;

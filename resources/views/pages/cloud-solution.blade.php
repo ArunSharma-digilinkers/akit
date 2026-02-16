@@ -36,8 +36,20 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h4>Innovative Cloud Solutions for Seamless Digital Transformation</h4>
                      <p>
-                            At AK IT Lab, our cloud solutions are designed to help businesses harness the full potential of modern technology. We offer scalable, secure, and cost-effective cloud services that empower organizations to improve efficiency, flexibility, and collaboration. Whether it's cloud infrastructure, software as a service (SaaS), or cloud-based storage solutions, we tailor our offerings to meet the specific needs of each client. Our team of experts works closely with businesses to migrate legacy systems to the cloud, ensuring a smooth transition with minimal downtime. With AK IT Lab's cloud solutions, companies can take advantage of the latest technologies while keeping their data secure and accessible.
-                        </p>
+                        At AK IT Lab, our cloud solutions are designed to help businesses harness the full potential of modern technology. We offer scalable, secure, and cost-effective cloud services that empower organizations to improve efficiency, flexibility, and collaboration. Whether it's cloud infrastructure, software as a service (SaaS), or cloud-based storage solutions, we tailor our offerings to meet the specific needs of each client. Our team of experts works closely with businesses to migrate legacy systems to the cloud, ensuring a smooth transition with minimal downtime.
+                    </p>
+                    <div class="value-points mt-1">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="ab-points">Cloud Migration & Deployment</p>
+                    </div>
+                    <div class="value-points mt-1">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p class="ab-points">Scalable Cloud Architecture</p>
+                    </div>
+                    <div class="value-points mt-1">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p class="ab-points">Cloud Optimization & Cost Management</p>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="img/cloud-inner-image.jpg" class="img-fluid br15">

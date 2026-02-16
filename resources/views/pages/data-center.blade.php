@@ -38,6 +38,18 @@
                      <p>
                         Our data center solutions are equipped with advanced technologies such as cloud computing, virtualization, and automated systems management, ensuring your infrastructure can grow seamlessly with your business. We provide continuous monitoring, disaster recovery, and backup solutions to ensure maximum uptime and the protection of your most valuable assets. With AK IT Lab’s data center services, you can confidently focus on your core business, knowing your data and infrastructure are in good hands. Let us help you build a reliable, future-proof infrastructure that supports your business growth and digital transformation.
                     </p>
+                    <div class="value-points mt-1">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="ab-points">24/7 Infrastructure Monitoring & Support</p>
+                    </div>
+                    <div class="value-points mt-1">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p class="ab-points">Scalable Cloud & Virtualization Solutions</p>
+                    </div>
+                    <div class="value-points mt-1">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p class="ab-points">Advanced Data Security & Compliance</p>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="img/data-center-img.jpg" class="img-fluid br15">
@@ -74,32 +86,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center mb-4">
-                    <h3>Cyber Security Solutions by AK IT LAB</h3>
+                    <h3>Why AK IT LAB for Data-Center Solutions</h3>
                     <p>
                         The Cloud Transformation Journey is a strategic process that enables businesses to migrate their operations, infrastructure, and services to the cloud, unlocking new levels of efficiency, agility, and innovation.
                     </p>
                 </div>  
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                     <div class="journey-box">
-                        <h4>Cyber Security</h4>
+                        <h4>Tailored Solutions</h4>
                         <p>
-                            AK IT LAB secures systems, networks, and programs against digital attacks, ensuring comprehensive protection.
+                            Highly Customized solutionstrategies for individual business needs.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                     <div class="journey-box">
-                        <h4>Endpoint Protection</h4>
+                        <h4>Cost-Effective Operations</h4>
                         <p>
-                            We deliver endpoint protection, actively monitoring & safeguarding endpoints against cyber threats for comprehensive security.
+                            We optimize expenses with focused strategic solutions
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                     <div class="journey-box">
-                        <h4>NGFW</h4>
+                        <h4>Robust Security Measures</h4>
                         <p>
-                            A next-generation firewall (NGFW) is a network security device that provides capabilities beyond a traditional, stateful firewall. We provide the best ones for you. 
+                            Fortify your data with our advanced protection.
                         </p>
                     </div>
                 </div>    
@@ -107,23 +119,23 @@
                     <div class="journey-box">
                         <h4>Cloud Threat Operation</h4>
                         <p>
-                            Our main objective of providing cloud security operations (SecOps) function is to detect, respond to, & recover from active attacks on enterprise assets.
+                            Get dedicated End-to-end solutions for seamless operations.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                     <div class="journey-box">
-                        <h4>Email Gateway Security</h4>
+                        <h4>Seamless Automation</h4>
                         <p>
-                            Email gateway protection that we provide is designed to prevent unwanted email and deliver good email to your business.
+                            We aim to provide efficient processes through intelligent automation
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                     <div class="journey-box">
-                        <h4>Hybrid Cloud Security</h4>
+                        <h4>Expert Management</h4>
                         <p>
-                            Our hybrid cloud security services involve protecting data, applications and infrastructure, both on-premises and in the public cloud.
+                           Being India's top IT Integrator we have Proven proficiency in effective data handling.
                         </p>
                     </div>
                 </div>      

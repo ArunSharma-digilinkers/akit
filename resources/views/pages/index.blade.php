@@ -296,7 +296,7 @@
                     <div class="card">
                         <img src="img/service5-img.jpg" class="card-img-top" alt="Cloud Solution Image">
                         <div class="card-body text-center">
-                            <h4 class="card-title">Cyber Security</h4>
+                            <h4 class="card-title">UPS & Power Solutions</h4>
                             <p class="card-description">Protect your systems and data with robust cybersecurity solutions designed to prevent and detect threats.</p>
                         </div>
                     </div>
